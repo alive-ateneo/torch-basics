@@ -9,5 +9,5 @@
 ## Packages to Install
 
 ```bash
-pip install torch python-opencv
+pip install torch opencv-python
 ```
