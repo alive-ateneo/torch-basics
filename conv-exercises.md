@@ -31,3 +31,13 @@ You’re building a tiny super-resolution block for 28x28 grayscale images:
 - `Conv2d(2, 1, kernel_size=3, padding=1)`
 
 Question: How many trainable parameters are in this model?
+
+## Exercise 4: Edge Finder
+You’re building a simple edge-finding block for 40x40 grayscale images, then upsampling back to the original size.
+
+Parameters (in order):
+- Layer 1: `in_channels=1`, `out_channels=6`, `kernel_size=5`, `padding=2`
+- Layer 2: `kernel_size=2`, `stride=2`
+- Layer 3: `in_channels=6`, `out_channels=1`, `kernel_size=2`, `stride=2`
+
+Question: How many trainable parameters are in this model?
